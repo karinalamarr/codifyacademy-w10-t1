@@ -1,0 +1,49 @@
+html {
+  height: 100%;
+  min-height: 100%;
+  position: relative;
+}
+body {
+  margin-bottom: 60px;
+}
+.page-area {
+  display: table;
+  height: 100%;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+.page-content {
+  display: table-cell;
+  height: 100%;
+  vertical-align: middle;  
+}
+#target {
+  text-align: left;
+  margin: 0 auto;
+  padding-left: 100px;
+  width: 600px;
+}
+p {
+    font-size: 16px;
+    line-height: 0.9;
+}
+p.black {
+    color: black;
+}
+p.olive {
+    color: olive;
+}
+p.green {
+    color: green;
+}
+body > footer {
+  background-color: #f5f5f5;
+  bottom: 0;
+  height: 60px;
+  line-height: 40px;
+  padding-top: 10px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
